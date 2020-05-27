@@ -189,6 +189,7 @@ function priceDecrement(Class){
    const totalValue = value - 1219;
 
    document.getElementsByClassName("price")[0].innerText = totalValue;
+   
    const coverPrice = document.getElementsByClassName('price')[1].innerText;
    const subTotal = parseFloat(coverPrice)+totalValue;
    document.getElementById('subtotal').innerText= subTotal;
